@@ -32,6 +32,7 @@ sys.path.append('/home/kkato/self-critical.pytorch')
 
 import os
 import json
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import argparse
 from random import shuffle, seed
 import string
